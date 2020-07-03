@@ -36,6 +36,8 @@ of conversions are as follows:
 - ``12:04`` will become ``It's Twelve O Four``
 - ``17:20`` will become ``It's Seventeen Twenty``
 - ``00:23`` will become ``It's Twenty Three Minutes Past Mightnight``
+- ``12:00`` will become ``It's Midday``
+- ``00:00`` will become ``It's Midnight``
 
 There are 2 ways to demonstrate the validity of the conversion from digital 
 24-hr clock representation to a verbal text-based clock:
