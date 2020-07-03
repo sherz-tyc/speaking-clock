@@ -30,13 +30,21 @@ or
 
 ## Notes regarding this submission
 This **Speaking Clock** project is a demo application developed with 
-limited time and resources available. There are 2 ways to verify the
-validity of the conversion from digital 24-hr clock representation
-to a verbal text-based clock:
-1) Run this project's main class (user interaction within the console):
+limited time and resources (framework and tools) available. Some examples
+of conversions are as follows:
+- ``08:34`` will become ``It's Eight Thirty Four``
+- ``12:04`` will become ``It's Twelve O Four``
+- ``17:20`` will become ``It's Seventeen Twenty``
+- ``00:23`` will become ``It's Twenty Three Minutes Past Mightnight``
+
+There are 2 ways to demonstrate the validity of the conversion from digital 
+24-hr clock representation to a verbal text-based clock:
+
+1) Run this project's main class, which provides user interaction within 
+the command-line console.
 
 
-2) Run the tests written for this application.
+2) Run the JUnit tests written for this application.
 
 
 
@@ -51,6 +59,7 @@ the command line:
 To run tests only, run the following command on command line:
 
 ``mvn test``
+
 
 
 
